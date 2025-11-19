@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 8%;
+    background-color: rgb(61, 61, 61);
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    padding: 5px;
+    height: 8%;
+    display: flex;
+    background-color: rgb(123, 123, 123);
+    color: #ffff;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+nav img{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+nav ul li a{
+    color: #FFFF;
+    text-decoration: none;
+    border-bottom: 2px solid #00000000;
+    transition: 0.5s;
+}
+
+.active{
+    color: #ffff;
+    text-shadow: 0 0 10px #000000,0 0 20px #000000,0 0 40px #000000;
+    border-bottom: 2px solid #454545;
+}
+
+nav ul li a:hover{
+    color: #ffff;
+    text-shadow: 0 0 10px #000000,0 0 20px #000000,0 0 40px #000000;
+    border-bottom: 2px solid #454545;
+}
+
+main {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+main article ul{
+    margin-left: 40px;
+}
+
+main article ol{
+    margin-left: 40px;
+}
+
+footer{
+    width: auto;
+    height: 20%;
+    background-color: #000000;
+    color: #ffff;
+    display: flex;
+}
+
+footer p{
+    margin: 20px auto;
+    margin-top: 3.5rem;
+}
+
+.logo{
+    margin-top: 6em;
+    display: flex;
+    gap: 12px;
+}
+
+.fa-brans fa-facebook{
+    width: 20%;
+}
